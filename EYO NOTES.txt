@@ -1,0 +1,58 @@
+ <form>
+        <div>
+            name: <input type="text" required/>
+        </div>
+        <div>
+            Age: <input type="number"/>
+        </div>
+        <div>
+            subject: <input type="text"/>
+        </div>
+                <div>
+            <input type="checkbox" checked/> ENROLLED?
+        </div>
+        <div>
+            <textarea name="comment" id="type comment">HELLO EYO RN.</textarea>
+        </div>
+        <div>
+            <input type="submit" value="OKAY"/>
+        </div>
+        <div>
+            MAIN COLOUR:
+            <select name="colour" id="colour">
+                <option value="">BLUE</option>
+                <option value="">RED</option>
+                <option value="">GREEN</option>
+                <option selected value="">BLACK</option>
+                <option value="">WHITE</option>
+            </select>
+        </div>
+        <div>   
+            COUNTRY
+            <select name="COUNTRY" id="COUNTRY">
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">NORWAY</option>
+                <option selected value="">NIGERIA</option>
+                <option value="">CANADA</option>
+            </select>
+        </div>
+    </form>
+    <h1>TABLE</h1>
+    <table border="table">
+        <tr>
+           <th>MONDAY</th>
+           <th>TUESDAY</th>
+           <th>WENESDAY</th>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>1</td>
+            <td>4</td>
+        </tr>
+         <tr>
+            <td>53</td>
+            <td>43</td>
+            <td>45</td>
+        </tr>
+    </table>
